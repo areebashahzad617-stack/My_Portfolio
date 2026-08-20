@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Theme Toggle Button -->
+  <button id="theme-toggle" aria-label="Toggle dark/light mode">☀️</button>
+
+  <!-- Header Section -->
+  <header class="hero">
+    <h1>Frontend Developer</h1>
+    <p>Undergraduated 7th semester student </p>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+    
+    <!-- About Me Card -->
+    <section class="card">
+      <h2>About Me</h2>
+      <p>My name is Areeba Shahzad I am a Front-end developer building projects with HTML, CSS, PHP, and JavaScript. Focused on creating user-friendly web interfaces.</p>
+    </section>
+
+    <!-- Skills Card -->
+    <section class="card">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span class="badge">HTML</span>
+        <span class="badge">CSS</span>
+        <span class="badge">C++</span>
+        <span class="badge">JavaScript</span>
+         <span class="badge">PHP</span>
+      </div>
+    </section>
+
+    <!-- Projects Card -->
+    <section class="card">
+      <h2>Projects</h2>
+      
+      <div class="project-item">
+        <h3>Calculator App</h3>
+        <p>Functional calculator with arithmetic operations and responsive layout.</p>
+        <a href="../CodeAlpha_Calculator/index.html" class="btn-link">View Project &rarr;</a>
+      </div>
+
+      <div class="project-item">
+        <h3>Image Gallery</h3>
+        <p>Interactive image grid with hover effects and popup preview.</p>
+        <a href="../CodeAlpha_imageGallery/index.html" class="btn-link">View Project &rarr;</a>
+      </div>
+
+      <div class="project-item">
+        <h3>Sarte Website</h3>
+        <p>Fashion clothing brand website featuring navigation menus, product galleries, and shopping cart elements.</p>
+        <a href="../Sarte/index.html" class="btn-link">View Project &rarr;</a>
+      </div>
+    </section>
+
+    <!-- Interactive Contact Form Card -->
+    <section class="card">
+      <h2>Get In Touch</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" rows="3" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+        <p id="form-status" class="success-msg"></p>
+      </form>
+      <p class="email-fallback">Or email me directly at: <a href="mailto: areebashahzad617@gmail.com" class="email-link">areebashahzad617@gmail.com</a></p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 My Portfolio | CodeAlpha Internship Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
